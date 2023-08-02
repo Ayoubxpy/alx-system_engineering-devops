@@ -1,0 +1,12 @@
+#!/bin/bash
+mv /tmp/betty /tmp/my_first_directory
+Make sure that the directory "betty" exists in the "/tmp" directory before running the script, and ensure you have the necessary permissions to move directories in the "/tmp" directory. Also, ensure that the destination directory "my_first_directory" exists within the "/tmp" directory, or else the mv command will treat "my_first_directory" as the new name of the moved directory.
+
+After saving the script to a file (for example, move_directory.sh) and making it executable with chmod +x move_directory.sh, you can run it using ./move_directory.sh.
+
+Upon execution, the script will move the "betty" directory to the "my_first_directory" directory in the "/tmp" directory.
+
+
+
+
+
